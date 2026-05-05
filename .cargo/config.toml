@@ -1,0 +1,10 @@
+[source.persian-rust]
+registry = "sparse+https://index.rust-meetup.ir/"
+
+[source.crates-io]
+replace-with = "persian-rust"
+
+[net]
+git-fetch-with-cli = true
+timeout = 60
+retry = 3
